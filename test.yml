@@ -3,7 +3,6 @@
     hosts: localhost
     vars:
        - dest: "/home/ansibleadm/FN-Dev/"
-       - word_docx_loc: "/home/ansibleadm/"
     tasks:
       - name: git pull
         git:
