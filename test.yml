@@ -15,4 +15,4 @@
 
       - name: deploy to tomcat using rsync (push)
         command:
-          rsync -avh html-gen-files/ tomcat@10.0.0.128:/opt/tomcat10/webapps/FN-Dev/
+          rsync -avh html-gen-files/ tomcatadm@10.0.0.128:/opt/tomcat10/webapps/FN-Dev/
